@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(167, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+table{
+    border: 10px, solid, black;
+    border-collapse: collapse;
+}
+table td{
+        border: 2px, solid, black;
+        padding: 6px;
+}
+table th{
+    padding:0px;
+}
+header{
+    margin: 0px;
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(cyan,white);
+    font-size: 40px;
+    padding: 10px;
+}
+nav img{
+    width: 200px;
+    border-radius: 12px;
+}
+.centracion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    background-color: white;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
