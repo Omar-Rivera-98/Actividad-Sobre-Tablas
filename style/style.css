@@ -2,19 +2,21 @@ body{
     background-color: rgb(167, 255, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-table{
-    border-collapse: collapse;
+
+th, td {
+   
+    padding: 8px 12px;
+    text-align: left;
 }
-table tr{
-        border: 1px, solid, black;
-        padding: 6px;
+
+th {
+    border: 10px,solid,rgb(255, 255, 255);
 }
-.sheet{
-    background-color: white;
+
+tr {
+    background: radial-gradient(rgb(119, 255, 180),white)
 }
-table th{
-    padding:0px;
-}
+
 header{
     margin: 0px;
 }
